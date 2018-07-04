@@ -7,7 +7,7 @@ import random
 
 
 li = [ValueError, TypeError, RuntimeError]
-i = random.randint(0,2)
+i = random.randint(0,3)
 
 def func1(i):
     raise li[i]
